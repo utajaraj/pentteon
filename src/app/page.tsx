@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <div className="line-bg flex flex-col gap-4 items-center">
-      <div className="w-[1020px] lg:w-[820px] md:w-[620px] sm:w-[220px] flex flex-col gap-4 items-center p-8 bg-gray-100">
+      <div className="lg:w-[820px] md:w-[620px] sm:w-[220px] xs:w-[200px] flex flex-col gap-4 items-center p-8 bg-gray-100">
         {
           items.map((item: CatInterface, i: number) => {
             if (item == undefined) {
