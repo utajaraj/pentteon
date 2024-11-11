@@ -1,0 +1,6 @@
+.line-bg {
+    background-color: #ffffff;
+    opacity: 1;
+    background-size: 8px 8px;
+    background-image: repeating-linear-gradient(135deg, #f3f3f3 0, #f3f3f3 0.8px, #ffffff 0, #ffffff 50%);
+}
